@@ -1,0 +1,123 @@
+body {
+  font-family: arial;
+  background-color: rgb(240, 240, 240);
+  background: #fafafa;
+  background: -webkit-linear-gradient(#fafafa, #f0f0f0);
+  background:    -moz-linear-gradient(#fafafa, #f0f0f0);
+  background:         linear-gradient(#fafafa, #e9e9e9);
+  padding-left: 180px;
+  padding-right: 180px;
+}
+
+
+h1{
+  text-align: center;
+  text-shadow: 0px 6px 6px rgb(190, 190, 190);
+  color: rgb(65, 65, 65);
+}
+
+label{
+  text-align: center;
+  text-shadow: 0px 4px 6px rgb(190, 190, 190);
+  color: rgb(65, 65, 65);
+}
+
+#mainContainer {
+  padding: 20px;
+  background-color: rgba(240, 240, 240, 0.8);
+  background: #fafafa;
+  background: -webkit-linear-gradient(#fafafa, #f0f0f0);
+  background:    -moz-linear-gradient(#fafafa, #f0f0f0);
+  background:         linear-gradient(#fafafa, #e9e9e9);
+}
+
+.timeStamp {
+  font-size: 9px;
+  font-style: italic;
+  padding-left: 35px;
+}
+
+.fromSelf {
+  text-align: right;
+  color: rgb(90, 90, 255);
+}
+
+.fromSelfUser {
+
+}
+
+.fromSelfMessage {
+  padding-right: 15px;
+}
+
+.fromSelfTimeStamp {
+  padding-right: 30px;
+}
+
+#userAndRoomContainer {
+  text-align: center;
+  margin: 15px;
+  padding: 5px;
+}
+
+#messageContainer {
+  text-align: center;
+  margin: 15px;
+  padding: 5px;
+}
+
+#userNameLabel {
+  margin-bottom: 25px;
+}
+
+.messageBody {
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-left: 15px;
+  padding-left: 15px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+p {
+  margin: 5px;
+  padding: 5px;
+}
+
+#chatText {
+  font-family: arial;
+  padding: 20px;
+  margin: 15px;
+  background-color: rgb(225, 225, 225);
+  outline-style: solid;
+  outline-width: thin;
+  outline-color: rgb( 200, 200, 200);
+  box-shadow: 0px 0px 20px rgb(200, 200, 200);
+  height: 350px;
+  overflow: auto;
+  border-radius: 5px;
+    color: rgb(65, 65, 65);
+  overflow-wrap: break-word;
+}
+
+#socketTesting {
+  background: rgb(150, 150, 150);
+  padding: 20px;
+  margin: 20px;
+}
+
+.userName {
+  font-weight: bolder;
+}
+
+textarea {
+  background-color: rgb(225, 225, 225);
+  outline-style: solid;
+  outline-width: thin;
+  outline-color: rgb( 200, 200, 200);
+  border-style: none;
+  box-shadow: 0px 0px 20px rgb(200, 200, 200);
+  overflow: auto;
+  border-radius: 5px;
+  font-family: arial;
+}
